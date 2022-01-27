@@ -3,7 +3,7 @@
 # Expected Output: [1,3,5,7,9,2,4,6,8]
 
 a, b = [1, 3, 5, 7, 9, 10], [2, 4, 6, 8]
-a[-1] = b
+a[-1:] = b
 print(a)
 
 # 2. Write a Python program to insert a given string at the beginning of all items in a list.
